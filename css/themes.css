@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background: #fff;
+}
+
+video {
+    position: absolute;
+    margin-top: -18rem;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url('/media/static_banner.png');
+    background-repeat: no-repeat;
+    transition: 1s opacity;
+}
+
+.stopfade {
+    opacity: .5;
+}
+
+#div1 {
+    margin-top: 1080px;
+}
+
+#banner p {
+    font-size: 2.5rem;
+    float: left;
+    margin-top: 1rem;
+    font-family: 'Dawning of a New Day', cursive;
+    color: black;
+}
+
+#banner #logo {
+    float: right;
+    width: 3%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+#banner #github {
+    float: left;
+    width: 3%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+#info-flutuante {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight: 100;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border-radius: 1%;
+}
+
+#info-flutuante h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#info-flutuante h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+    text-align: center;
+}
+
+#info-flutuante img {
+    border-radius: 20%;
+    max-width: 50%;
+    height: auto;
+    align-content: center;
+    margin: auto;
+    display: block;
+}
+
+#info-flutuante a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: .5rem;
+    transition: .6s background;
+}
+
+#info-flutuante a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 500px) {
+    div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url('/media/static_banner.png') #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
