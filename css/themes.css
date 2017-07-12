@@ -119,16 +119,19 @@ video {
 }
 
 @media screen and (max-width: 991px) {
-     /* start of large tablet styles */
-    
+    /* start of large tablet styles */
 }
 
 @media screen and (max-width: 767px) {
-     /* start of medium tablet styles */
-
+    /* start of medium tablet styles */
+    img {
+        position: absolute;
+        z-index: -100;
+        width: auto;
+        height: 15vmin;
+    }
 }
 
 @media screen and (max-width: 479px) {
-     /* start of phone styles */
-
+    /* start of phone styles */
 }
