@@ -7,24 +7,25 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/themes.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+    <script type="text/javascript" src="js/utils.js"></script>
 </head>
 
-<body onload="javascript:onLoadEvent()">
+<body>
     <div class="container">
+        <!-- Banner: Div 1 -->
         <div id="banner">
-            <video id="video" poster="media/static_banner.png" id="bgvid" playsinline autoplay muted loop>
-            <source src="media/banner_keyboard2.mp4" type="video/mp4">
-            </video>
-            <a href="https://play.google.com/store/apps/developer?id=asha+Creative"><img id="logo" src="media/logo_sample.png" /></a>
-            <a href="https://github.com/natanmorais"><p>NatanMorais</p><img id="github" src="media/github.png" /></a>
+            <script>
+                exibeBanner();
+            </script>
+            <a href="https://github.com/natanmorais">
+                <p>NatanMorais</p>
+            </a>
+            <div id="info-flutuante">
+                <img src="media/foto_perfil.jpg" />
+                <h1>Natan Morais</h1>
+                <h2>Cientista da Computação</h2>
+            </div>
         </div>
-        <div id="info-flutuante">
-            <img src="media/foto_perfil.jpg" />
-            <h1>Natan Morais</h1>
-            <h2>Cientista da Computação</h2>
-        </div>
-        <br /><br /><br />
-        <div id="div1">lalala</div>
     </div>
 </body>
 

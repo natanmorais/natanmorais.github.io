@@ -5,7 +5,6 @@ body {
 
 video {
     position: absolute;
-    margin-top: 15rem;
     top: 50%;
     left: 50%;
     z-index: -100;
@@ -20,51 +19,35 @@ video {
 }
 
 #div1 {
-    margin-top: 1080px;
+    position: relative;
+    margin-top: 1rem;
 }
 
 #banner {
     position: relative;
+    display: block;
 }
 
 #banner p {
     position: absolute;
-    font-size: 2.5rem;
-    float: left;
-    margin-top: 1rem;
+    font-size: 4vmin;
     font-family: 'Dawning of a New Day', cursive;
     color: black;
 }
 
-#banner #logo {
-    position: absolute;
-    float: right;
-    right: 10%;
-    width: 3%;
-    height: auto;
-    margin-top: 1rem;
-}
-
-#banner #github {
-    position: absolute;
-    float: left;
-    left: 10%;
-    width: 3%;
-    height: auto;
-    margin-top: 1rem;
-}
-
 #info-flutuante {
+    position: absolute;
     font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
     font-weight: 100;
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 2rem;
-    width: 33%;
+    padding: 2vmin;
+    width: 60vmin;
     margin: auto;
-    margin-top: 2rem;
-    font-size: 1.2rem;
+    margin-top: 7vmin;
+    font-size: 1.2vmin;
     border-radius: 1%;
+    align-self: center;
 }
 
 #info-flutuante h1 {
