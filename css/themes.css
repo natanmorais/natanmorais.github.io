@@ -96,6 +96,28 @@ video {
     display: block;
 }
 
+#menu {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 90%;
+}
+
+#menu table {
+    width: 100%;
+    text-align: center;
+}
+
+#menu td {
+    width: 20%;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Coda', cursive;
+}
 
 /* ---------------------------------- */
 
