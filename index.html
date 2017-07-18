@@ -32,16 +32,16 @@
             <div id="menu">
                 <table>
                     <tr>
-                        <td><a href="#">Sobre</a></td>
-                        <td><a href="#">asha</a></td>
-                        <td><a href="#">Projetos</a></td>
-                        <td><a href="#">Contribuições</a></td>
-                        <td><a href="#">Contato</a></td>
+                        <td><a href="#sobre" onclick="goToDiv('sobre')">Sobre</a></td>
+                        <td><a href="#asha" onclick="goToDiv('asha')">asha</a></td>
+                        <td><a href="#projetos" onclick="goToDiv('projetos')">Projetos</a></td>
+                        <td><a href="#contribuicoes" onclick="goToDiv('contribuicoes')">Contribuições</a></td>
+                        <td><a href="#contato" onclick="goToDiv('contato')">Contato</a></td>
                     </tr>
                 </table>
             </div>
         </div>
-        <div id="sobre">
+        <div id="sobre" onmouseover="limpaBordas()">
             <div id="titulo">
                 <p>Sobre mim</p>
             </div>
@@ -56,7 +56,7 @@
                 </a>
             </div>
         </div>
-        <div id="asha">
+        <div id="asha" onmouseover="limpaBordas()">
             <div id="titulo">
                 <p>asha</p>
             </div>
@@ -71,7 +71,7 @@
                 </a>
             </div>
         </div>
-        <div id="projetos">
+        <div id="projetos" onmouseover="limpaBordas()">
             <div id="titulo">
                 <p>Projetos</p>
             </div>
@@ -84,7 +84,7 @@
                 </a>
             </div>
         </div>
-        <div id="contribuicoes">
+        <div id="contribuicoes" onmouseover="limpaBordas()">
             <div id="titulo">
                 <p>Contribuições</p>
             </div>
@@ -97,12 +97,12 @@
                 </a>
             </div>
         </div>
-        <div id="contato">
+        <div id="contato" onmouseover="limpaBordas()">
             <div id="titulo">
                 <p>Contato</p>
             </div>
             <div id="conteudo">
-                <img onclick="showEmail()" src="media/email_icon.png"/>
+                <img onclick="showEmail()" src="media/email_icon.png" />
                 <a href="https://fb.com/NatanMorais"><img src="media/facebook_icon.png" /></a>
                 <a href="https://www.linkedin.com/in/natan-barbosa-de-morais-30106799/"><img src="media/linkedin_icon.png" /></a>
                 <p id="email">^ morais_natan@hotmail.com</p>

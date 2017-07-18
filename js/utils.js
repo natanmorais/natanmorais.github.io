@@ -15,3 +15,24 @@ function showEmail() {
         x.style.display = 'none';
     }
 }
+
+function goToDiv(titulo) {
+    limpaBordas();
+    var x = document.getElementById(titulo);
+    x.style.borderStyle = 'dashed';
+    x.style.borderColor = 'aqua';
+    x.style.borderWidth = 'thin';
+}
+
+function limpaBordas() {
+    var a = document.getElementById('sobre');
+    var b = document.getElementById('asha');
+    var c = document.getElementById('projetos');
+    var d = document.getElementById('contribuicoes');
+    var e = document.getElementById('contato');
+    a.style.borderStyle = 'none';
+    b.style.borderStyle = 'none';
+    c.style.borderStyle = 'none';
+    d.style.borderStyle = 'none';
+    e.style.borderStyle = 'none';
+}
