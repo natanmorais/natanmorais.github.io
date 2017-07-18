@@ -3,6 +3,11 @@ body {
     background: #fff;
 }
 
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 video {
     position: absolute;
     top: 50%;
