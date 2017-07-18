@@ -122,6 +122,114 @@ video {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Coda', cursive;
+    font-size: large;
+}
+
+#titulo p {
+    margin-top: 0;
+    padding-top: 2vmin;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-bottom: 5vmin;
+    font-family: 'Coda', cursive;
+    font-size: x-large;
+}
+
+#conteudo p {
+    margin-left: 5%;
+    text-align: justify;
+    margin-top: -2vmin;
+    padding-right: 5%;
+    font-family: 'Coda', cursive;
+    font-size: medium;
+}
+
+#conteudo img {
+    width: 12vmin;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+}
+
+#conteudo img:hover {
+    cursor: pointer;
+}
+
+#vermais p {
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#vermais a {
+    text-decoration: none;
+}
+
+#sobre {
+    position: relative;
+    background-color: #515151;
+    float: left;
+    width: 100%;
+}
+
+#sobre p {
+    color: white;
+}
+
+#asha {
+    position: relative;
+    background-color: #aaaaaa;
+    float: left;
+    width: 100%;
+}
+
+#asha p {
+    color: black;
+}
+
+#projetos {
+    position: relative;
+    background-color: #515151;
+    float: left;
+    width: 100%;
+}
+
+#projetos p {
+    color: white;
+}
+
+#contribuicoes {
+    position: relative;
+    background-color: #aaaaaa;
+    float: left;
+    width: 100%;
+}
+
+#contribuicoes p {
+    color: black;
+}
+
+#contato {
+    position: relative;
+    background-color: #515151;
+    float: left;
+    width: 100%;
+}
+
+#contato p {
+    color: white;
+}
+
+#contato #conteudo {
+    text-align: center;
+    padding-bottom: 2vmin;
+}
+
+#contato #conteudo p {
+    text-align: center;
+    padding-top: 2vmin;
+    font-size: small;
+    display: none;
 }
 
 /* ---------------------------------- */
